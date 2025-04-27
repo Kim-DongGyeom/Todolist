@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cssファイル -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <title id="title">TodoList</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <label id="Tile">TodoList</label>
+        <button id="listView" onclick="ViewList()">リスト</button>
+        <button id="DelListView" onclick="ViewDelList()">削除リスト</button>
+      </div>
+      <div>
+        <input id="AddList" type="text" />
+        <button id="AddBtn" onclick="AddBtn()">追加</button>
+      </div>
+    </div>
+    <div id="List"></div>
+  </body>
+  <!-- jsファイル -->
+  <script src="./JS/data.js"></script>
+  <script src="./JS/main.js"></script>
+  <script src="./JS/btn.js"></script>
+  <script src="./JS/view.js"></script>
+</html>
